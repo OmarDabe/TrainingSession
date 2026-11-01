@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar's Coffee Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Omar's Coffee Shop</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <h1>Coffee for people who code</h1>
+      <p>Fresh coffee, fast Wi-Fi, and quiet corners.</p>
+      <a class="button" href="#menu">See the menu</a>
+    </section>
+
+    <section id="menu">
+      <h2>Our menu</h2>
+      <div id="menu-cards" class="cards"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Stay in touch</h2>
+      <form id="contact-form" novalidate>
+        <label for="email">Your email</label>
+        <input id="email" type="email" placeholder="you@example.com">
+        <button type="submit" class="button">Subscribe</button>
+        <p id="form-message" role="status"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Omar's Coffee Shop. All rights reserved.</p>
+  </footer>
+
+  
+</body>
+</html>
